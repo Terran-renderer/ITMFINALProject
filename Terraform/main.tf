@@ -5,7 +5,7 @@ resource "aws_instance" "app" {
   ami           = "ami-0c02fb55956c7d316" # Amazon Linux
   instance_type = "t2.micro"
 
-  key_name = "your-key-name"
+  key_name = "mykey"
 
   vpc_security_group_ids = [aws_security_group.allow_ssh.id]
 
