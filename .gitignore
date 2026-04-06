@@ -1,2 +1,4 @@
+.terraform/
+*.tfstate
+*.tfstate.backup
 
-assets/images/Pixel_Painter.png
